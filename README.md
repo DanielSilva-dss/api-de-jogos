@@ -91,6 +91,17 @@ Exemplo de JSON para Criar Cliente:
 }  
 ```  
 
+## 📊 Banco de Dados H2
+O projeto utiliza banco H2 em memória:
+
+Console H2: http://localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:mem:jogos
+
+Usuário: sa
+
+Senha: (vazia)
+
 ## 🔮 Próximas Melhorias Possíveis
 Autenticação e autorização (Spring Security)
 
